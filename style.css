@@ -1062,3 +1062,246 @@ a.button:hover {
         max-width: 360px;
     }
 }
+/* ===== NOMANTECH PREMIUM PORTFOLIO ===== */
+
+.portfolio-section {
+    padding: 110px 20px;
+    background: #080b12;
+    color: #f8fafc;
+}
+
+.portfolio-container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 760px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.section-heading span {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #94a3b8;
+}
+
+.section-heading h2 {
+    margin: 0;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 0.98;
+    letter-spacing: -3px;
+    font-weight: 800;
+    color: #f8fafc;
+}
+
+.section-heading p {
+    max-width: 650px;
+    margin: 25px auto 0;
+    color: #94a3b8;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* ===== PORTFOLIO GRID ===== */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.portfolio-card {
+    overflow: hidden;
+    background: #0d111a;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px;
+    transition: transform 0.35s ease, border-color 0.35s ease,
+                box-shadow 0.35s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(255,255,255,0.18);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+}
+
+/* ===== PROJECT PREVIEWS ===== */
+
+.portfolio-image {
+    height: 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.portfolio-image::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    filter: blur(45px);
+    opacity: 0.35;
+}
+
+.restaurant {
+    background:
+        linear-gradient(135deg, #17120d, #312218 50%, #0d0f14);
+}
+
+.restaurant::before {
+    background: #d6a35d;
+}
+
+.barber {
+    background:
+        linear-gradient(135deg, #10131b, #1b2638 50%, #080b12);
+}
+
+.barber::before {
+    background: #6d8fbd;
+}
+
+.business {
+    background:
+        linear-gradient(135deg, #0d1515, #17302e 50%, #080b12);
+}
+
+.business::before {
+    background: #5ca99d;
+}
+
+.mockup-content {
+    position: relative;
+    z-index: 2;
+    width: 78%;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    background: rgba(10,13,20,0.65);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.mockup-content small {
+    display: block;
+    margin-bottom: 12px;
+    color: #aab4c5;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.mockup-content h3 {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.mockup-content p {
+    margin: 0;
+    color: #aab4c5;
+    font-size: 14px;
+}
+
+/* ===== PROJECT INFORMATION ===== */
+
+.portfolio-info {
+    padding: 25px 25px 28px;
+}
+
+.portfolio-info > span {
+    color: #7f8da3;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.portfolio-info h3 {
+    margin: 9px 0 8px;
+    color: #f8fafc;
+    font-size: 23px;
+    font-weight: 750;
+    letter-spacing: -0.5px;
+}
+
+.portfolio-info p {
+    margin: 0;
+    color: #8e99aa;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+
+    .portfolio-section {
+        padding: 85px 18px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .portfolio-image {
+        height: 250px;
+    }
+
+    .section-heading {
+        margin-bottom: 45px;
+    }
+
+    .section-heading h2 {
+        letter-spacing: -2px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .portfolio-section {
+        padding: 70px 15px;
+    }
+
+    .section-heading span {
+        font-size: 11px;
+        letter-spacing: 2.5px;
+    }
+
+    .section-heading h2 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+    }
+
+    .portfolio-image {
+        height: 220px;
+    }
+
+    .mockup-content {
+        padding: 23px 15px;
+    }
+
+    .mockup-content h3 {
+        font-size: 25px;
+    }
+
+    .portfolio-info {
+        padding: 22px;
+    }
+}
