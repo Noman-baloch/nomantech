@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noman-baloch.github.io/nomantech/sitemap.xml
