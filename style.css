@@ -1655,3 +1655,11 @@ a.button:hover {
 .logo span {
     color: #c084fc !important;
 }
+
+.site-footer .logo span {
+    background: linear-gradient(90deg, #ffffff, #7d8cff, #b8a5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
