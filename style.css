@@ -1661,3 +1661,9 @@ a.button:hover {
     background-clip: text;
 }
 
+
+.nav-button {
+    color: #c4b5fd !important;
+    text-shadow: 0 0 10px rgba(167,139,250,.35);
+}
+
