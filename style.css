@@ -76,8 +76,8 @@ color: white;
 .nav-button {
 padding: 11px 18px;
 border-radius: 12px;
-background: white;
-color: #080a0e;
+background: linear-gradient(90deg, #7d8cff, #b8a5ff) !important;
+color: #ffffff !important;
 font-size: 13px;
 font-weight: 700;
 }
