@@ -1647,7 +1647,7 @@ a.button:hover {
 
 
 /* ===== BUTTON + LOGO PURPLE ACCENT ===== */
-.hero .btn,
+.hero a[href="#contact"],
 .lets-talk-btn {
     color: #a855f7 !important;
 }
