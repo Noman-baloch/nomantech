@@ -56,9 +56,7 @@ font-weight: 800;
 letter-spacing: -1px;
 }
 
-.logo span { color: transparent !important; background: linear-gradient(90deg, #ffffff, #7d8cff, #b8a5ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-opacity: .45;
-}
+.logo span { background: linear-gradient(90deg, #ffffff, #7d8cff, #b8a5ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent !important; }
 
 .nav-links {
 display: flex;
