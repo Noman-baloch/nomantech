@@ -1662,8 +1662,5 @@ a.button:hover {
 }
 
 
-.nav-button {
-    color: #c4b5fd !important;
-    text-shadow: 0 0 10px rgba(167,139,250,.35);
-}
+.nav-button { background: linear-gradient(90deg, #7d8cff, #b8a5ff) !important; color: #ffffff !important; text-shadow: 0 0 8px rgba(255,255,255,.25); }
 
