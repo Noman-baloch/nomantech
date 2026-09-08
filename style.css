@@ -1728,3 +1728,38 @@ section {
         margin: 0 auto;
     }
 }
+
+/* ===== RESPONSIVE HERO FIX ===== */
+
+@media (max-width: 900px) {
+    .hero {
+        min-height: auto;
+        padding: 120px 5% 60px;
+        gap: 45px;
+    }
+
+    .hero-visual {
+        min-height: 340px;
+    }
+
+    .hero-image-wrap {
+        height: 340px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: auto;
+        padding: 115px 20px 50px;
+        gap: 30px;
+    }
+
+    .hero-visual {
+        min-height: 300px;
+    }
+
+    .hero-image-wrap {
+        width: 94%;
+        height: 300px;
+    }
+}
