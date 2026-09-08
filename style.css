@@ -1664,3 +1664,19 @@ a.button:hover {
 
 .nav-button { background: linear-gradient(90deg, #7d8cff, #b8a5ff) !important; color: #ffffff !important; text-shadow: 0 0 8px rgba(255,255,255,.25); }
 
+/* ===== SCROLL REVEAL ANIMATION ===== */
+
+section {
+    animation: sectionReveal 0.8s ease both;
+}
+
+@keyframes sectionReveal {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
